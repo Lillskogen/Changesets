@@ -1,13 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --env-mode=loose",
     "clean": "turbo run clean",
     "dev": "turbo run dev",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "build:affected": "turbo run --affected --env-mode=loose build",
+    "ls:affected": "turbo ls --affected --output=json"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
