@@ -12,6 +12,7 @@
     "test": "jest --detectOpenHandles"
   },
   "dependencies": {
+    "Classlib": "workspace:*"
   },
   "devDependencies": {
   }
