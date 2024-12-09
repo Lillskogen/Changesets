@@ -1,3 +1,6 @@
+  // --env-mode=loose
+
+
 # Turborepo kitchen sink starter
 
 This is an official starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.

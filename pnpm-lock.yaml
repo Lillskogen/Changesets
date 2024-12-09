@@ -214,6 +214,8 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
 
+  apps/webapi: {}
+
   packages/config-eslint:
     devDependencies:
       '@vercel/style-guide':
