@@ -1,5 +1,12 @@
 # webapi
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - Classlib@0.2.0
+
 ## 0.0.1
 
 ### Patch Changes
